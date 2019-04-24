@@ -20,123 +20,198 @@ class CreateCharactersTable extends Migration
             $table->timestamps();
         });
 
-        DB::table('characters')->insert(
+        DB::table('characters')->insert(array(
           array(
-              'name' => 'Tyrion Lannister'
+              'id' => 1,
+              'name' => 'Tyrion Lannister',
+              'dead_on' => NULL
           ),
           array(
-              'name' => '  Jaime Lannister'
+              'id' => 2,
+              'name' => '  Jaime Lannister',
+              'dead_on' => NULL
           ),
           array(
-              'name' => '  Cersei Lannister'
+              'id' => 3,
+              'name' => '  Cersei Lannister',
+              'dead_on' => NULL
           ),
           array(
-              'name' => '  Daenerys Targaryen'
+              'id' => 4,
+              'name' => '  Daenerys Targaryen',
+              'dead_on' => NULL
           ),
           array(
-              'name' => '  Jon Snow'
+              'id' => 5,
+              'name' => '  Jon Snow',
+              'dead_on' => NULL
           ),
           array(
-              'name' => '  Sansa Stark'
+              'id' => 6,
+              'name' => '  Sansa Stark',
+              'dead_on' => NULL
           ),
           array(
-              'name' => '  Arya Stark'
+              'id' => 7,
+              'name' => '  Arya Stark',
+              'dead_on' => NULL
           ),
           array(
-              'name' => '  Davos Seaworth'
+              'id' => 8,
+              'name' => '  Davos Seaworth',
+              'dead_on' => NULL
           ),
           array(
-              'name' => '  Missandei'
+              'id' => 9,
+              'name' => '  Missandei',
+              'dead_on' => NULL
           ),
           array(
-              'name' => '  Theon Greyjoy'
+              'id' => 10,
+              'name' => '  Theon Greyjoy',
+              'dead_on' => NULL
           ),
           array(
-              'name' => '  Samwell Tarly'
+              'id' => 11,
+              'name' => '  Samwell Tarly',
+              'dead_on' => NULL
           ),
           array(
-              'name' => '  Bran Stark'
+              'id' => 12,
+              'name' => '  Bran Stark',
+              'dead_on' => NULL
           ),
           array(
-              'name' => '  Brienne of Tarth'
+              'id' => 13,
+              'name' => '  Brienne of Tarth',
+              'dead_on' => NULL
           ),
           array(
-              'name' => '  Varys'
+              'id' => 14,
+              'name' => '  Varys',
+              'dead_on' => NULL
           ),
           array(
-              'name' => '  Sandor The Hound Clegane'
+              'id' => 15,
+              'name' => '  Sandor The Hound Clegane',
+              'dead_on' => NULL
           ),
           array(
-              'name' => '  Bronn'
+              'id' => 16,
+              'name' => '  Bronn',
+              'dead_on' => NULL
           ),
           array(
-              'name' => '  Tormund Giantsbane'
+              'id' => 17,
+              'name' => '  Tormund Giantsbane',
+              'dead_on' => NULL
           ),
           array(
-              'name' => '  Gendry'
+              'id' => 18,
+              'name' => '  Gendry',
+              'dead_on' => NULL
           ),
           array(
-              'name' => '  Grey Worm'
+              'id' => 19,
+              'name' => '  Grey Worm',
+              'dead_on' => NULL
           ),
           array(
-              'name' => '  Jorah Mormont'
+              'id' => 20,
+              'name' => '  Jorah Mormont',
+              'dead_on' => NULL
           ),
           array(
-              'name' => '  Gilly'
+              'id' => 21,
+              'name' => '  Gilly',
+              'dead_on' => NULL
           ),
           array(
-              'name' => '  Melisandre'
+              'id' => 22,
+              'name' => '  Melisandre',
+              'dead_on' => NULL
           ),
           array(
-              'name' => '  Beric Dondarrion'
+              'id' => 23,
+              'name' => '  Beric Dondarrion',
+              'dead_on' => NULL
           ),
           array(
-              'name' => '  Eddison Tollett'
+              'id' => 24,
+              'name' => '  Eddison Tollett',
+              'dead_on' => NULL
           ),
           array(
-              'name' => '  Podrick Payne'
+              'id' => 25,
+              'name' => '  Podrick Payne',
+              'dead_on' => NULL
           ),
           array(
-              'name' => '  Yohn Royce'
+              'id' => 26,
+              'name' => '  Yohn Royce',
+              'dead_on' => NULL
           ),
           array(
-              'name' => '  Lyanna Mormont'
+              'id' => 27,
+              'name' => '  Lyanna Mormont',
+              'dead_on' => NULL
           ),
           array(
-              'name' => '  Alys Karstark'
+              'id' => 28,
+              'name' => '  Alys Karstark',
+              'dead_on' => NULL
           ),
           array(
-              'name' => '  Maester Wolkan'
+              'id' => 29,
+              'name' => '  Maester Wolkan',
+              'dead_on' => NULL
           ),
           array(
+              'id' => 30,
               'name' => '  Ned Umber',
               'dead_on' => 1
           ),
           array(
-              'name' => '  Qhono'
+              'id' => 31,
+              'name' => '  Qhono',
+              'dead_on' => NULL
           ),
           array(
-              'name' => '  Night King'
+              'id' => 32,
+              'name' => '  Night King',
+              'dead_on' => NULL
           ),
           array(
-              'name' => '  Euron Greyjoy'
+              'id' => 33,
+              'name' => '  Euron Greyjoy',
+              'dead_on' => NULL
           ),
           array(
-              'name' => '  Qyburn'
+              'id' => 34,
+              'name' => '  Qyburn',
+              'dead_on' => NULL
           ),
           array(
-              'name' => '  Yara Greyjoy'
+              'id' => 35,
+              'name' => '  Yara Greyjoy',
+              'dead_on' => NULL
           ),
           array(
-              'name' => '  Gregor Clegane The Mountain'
+              'id' => 36,
+              'name' => '  Gregor Clegane The Mountain',
+              'dead_on' => NULL
           ),
           array(
-              'name' => '  Harry Strickland'
+              'id' => 37,
+              'name' => '  Harry Strickland',
+              'dead_on' => NULL
           ),
           array(
-              'name' => '  Robin Arryn'
-          )
-        );
+              'id' => 38,
+              'name' => '  Robin Arryn',
+              'dead_on' => NULL
+          ),
+        ));
     }
 
     /**

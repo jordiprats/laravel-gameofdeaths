@@ -1,4 +1,6 @@
 #!/bin/bash
+COUNT=1
+
 IFS="
 "
 
@@ -39,5 +41,5 @@ for i in $(echo "Tyrion Lannister
   Yara Greyjoy
   Gregor Clegane The Mountain
   Harry Strickland
-  Robin Arryn"); do echo "array("; echo "    'name' => '$i'"; echo "),"; done
+  Robin Arryn"); do echo "array("; echo "    'id' => $COUNT,"; echo "    'name' => '$i',"; echo "    'dead_on' => NULL"; echo "),"; let COUNT=$COUNT+1; done
 
